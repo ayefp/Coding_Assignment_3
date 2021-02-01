@@ -1,0 +1,39 @@
+body {
+    background-color: gray;
+    color: #E5D198;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif; 
+}
+
+#header-nav {
+    background-color: #E5D198;
+    border-radius: 0;
+    border: 0;
+}
+
+#brand-name {
+    font-size: 2em
+    
+}
+
+#collapse-button {
+    background-color: #E5D198;
+}
+
+@media (max-width:767px) {
+    .main {
+        margin: 30px;
+    }
+    #collapsable-nav {
+        background-color: #E5D198;
+        font-size: 1.5em;
+    }
+}
+
+#page-content {
+    margin-top: 30px;
+    max-width: 100%;
+    background-color: #E5D198;
+    color: gray;
+    text-align: justify;
+}
